@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#rowsFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#iconsRow {
+    display: flex;
+}
