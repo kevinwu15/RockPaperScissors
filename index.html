@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="rps.js"></script>
+    <script src="rps.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div id="rowsFlex">
+        <div id="header">
+            <button id="rock" class="btn">Rock</button>
+            <button id="paper" class="btn">Paper</button>
+            <button id="scissors" class="btn">Scissors</button>
+        </div>
+        <div id="iconsRow">
+            <img id="playerIcon">
+            <img id="computerIcon">
+        </div>
+        <p id="opponentPlayed"></p>
+        <p id="decision"></p>
+        <p id="scoreline">0 : 0</p>
+    </div>
+
     
 </body>
 </html>
